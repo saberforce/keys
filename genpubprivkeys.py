@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 def generateKeys():
 
-    public_key, private_key = rsa.newkeys(2048)
+    # public_key, private_key = rsa.newkeys(2048)
     # with open("public.pem", "wb") as f:
     #     f.write(public_key.save_pkcs1("PEM"))
 
@@ -25,13 +25,13 @@ def generateKeys():
     #     public_key=f.read()
 
 
-    print(public_key)
-    print(private_key)
+    # print(public_key)
+    # print(private_key)
 
-    return {"public_key": str(public_key), "private_key": str(private_key)}
+    # return {"public_key": str(public_key), "private_key": str(private_key)}
 
 
-
+    return "generatekeyshoh"
 
 
 if __name__ == '__main__':
