@@ -1,4 +1,4 @@
 Flask
 Gunicorn
 rsa
-hashlib
+hashlib==20081119
